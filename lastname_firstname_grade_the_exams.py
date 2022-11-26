@@ -1,9 +1,18 @@
+#!/usr/bin/env python
+
+"""This is assignment 1 of DSP301x_1.2-A_VN. Program help teachers to score exams of students."""
+
+__author__ = "Toàn Nhữ Đình"
+__version__ = "1.0"
+__email__ = "toanndxm00975@funix.edu.vn"
+
+
 from typing import Tuple, Dict
-import pandas as pd
-import numpy as np
 import os
 import re
 import math
+import pandas as pd
+import numpy as np
 
 
 script_dir = os.path.dirname(__file__)
